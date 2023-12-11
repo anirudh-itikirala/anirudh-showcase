@@ -38,10 +38,10 @@ export default function Home() {
           I'm building{" "}
           <Link
             target="_blank"
-            href="https://unkey.dev"
+            href="https://github.com/aitikirala"
             className="underline duration-500 hover:text-zinc-300"
           >
-            unkey.dev
+            aitikirala
           </Link> a personal portfolio to showcase my works.
         </h2>
       </div>
