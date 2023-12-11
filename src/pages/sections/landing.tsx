@@ -57,7 +57,7 @@ export default function Landing() {
               className='relative block translate-y-12 transform text-6xl font-black transition-all duration-500 ease-out'
               data-replace='{ "translate-y-12": "translate-y-0" }'
             >
-              <h1 className='flex min-h-[192px] flex-col items-start font-bold tracking-normal text-primary dark:text-[#FAD5A5] max-[640px]:text-6xl max-[400px]:text-5xl sm:text-7xl md:text-8xl'>
+              <h1 className='flex min-h-[192px] flex-col items-start font-bold tracking-normal text-primary dark:text-[#bbecf7] max-[640px]:text-6xl max-[400px]:text-5xl sm:text-7xl md:text-8xl'>
                 <div>Aarti</div>
                 <div>Itikirala</div>
                 <div className='text-md flex flex-col items-start gap-1 text-left md:text-lg'>
