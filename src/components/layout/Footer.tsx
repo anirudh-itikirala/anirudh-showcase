@@ -22,15 +22,13 @@ export default function Footer() {
             GitHub
           </UnderlineLink>
         </div>
-        {/* <div>
-          <UnderlineLink href='https://jasdeep.vercel.app/'>
-            Old Website
-          </UnderlineLink>
-        </div> */}
+        {}
         <div>
-          <UnderlineLink href='/files/resume'>Resume</UnderlineLink>
+          <UnderlineLink href='public/assets/Aarti-Itikirala-Resume.pdf'>Resume</UnderlineLink>
         </div>
       </div>
     </footer>
   );
+
+  
 }

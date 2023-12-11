@@ -23,7 +23,7 @@ export default function Header() {
           <ul className='flex items-center justify-between space-x-4'>
             <PrimaryLink
               className={clsx(
-                'hidden dark:text-[#FAD5A5]',
+                'hidden dark:text-[#bbecf7]',
                 router.pathname != '/' ? 'block' : ''
               )}
               href='/'
@@ -32,7 +32,7 @@ export default function Header() {
             </PrimaryLink>
             <PrimaryLink
               className={clsx(
-                'hidden dark:text-[#FAD5A5]',
+                'hidden dark:text-[#bbecf7]',
                 router.pathname != '/work' ? 'block' : ''
               )}
               href='/work'
@@ -41,7 +41,7 @@ export default function Header() {
             </PrimaryLink>
             <PrimaryLink
               className={clsx(
-                'hidden dark:text-[#FAD5A5]',
+                'hidden dark:text-[#bbecf7]',
                 router.pathname != '/education' ? 'block' : ''
               )}
               href='/education'
@@ -50,7 +50,7 @@ export default function Header() {
             </PrimaryLink>
             <PrimaryLink
               className={clsx(
-                'hidden dark:text-[#FAD5A5]',
+                'hidden dark:text-[#bbecf7]',
                 router.pathname != '/projects' ? 'block' : ''
               )}
               href='/projects'
@@ -59,7 +59,7 @@ export default function Header() {
             </PrimaryLink>
             <PrimaryLink
               className={clsx(
-                'hidden dark:text-[#FAD5A5]',
+                'hidden dark:text-[#bbecf7]',
                 router.pathname != '/aiml' ? 'block' : ''
               )}
               href='/aiml'
