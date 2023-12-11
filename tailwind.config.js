@@ -1,111 +1,60 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
+/* eslint-disable @typescript-eslint/no-var-requires */
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: [
-		"./app/**/*.{js,ts,jsx,tsx}",
-		"./mdx-components.tsx",
-		"content/**/*.mdx",
-	],
-
-	theme: {
-		extend: {
-			typography: {
-				DEFAULT: {
-					css: {
-						"code::before": {
-							content: '""',
-						},
-						"code::after": {
-							content: '""',
-						},
-					},
-				},
-				quoteless: {
-					css: {
-						"blockquote p:first-of-type::before": { content: "none" },
-						"blockquote p:first-of-type::after": { content: "none" },
-					},
-				},
-			},
-			fontFamily: {
-				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
-				display: ["var(--font-calsans)"],
-			},
-			backgroundImage: {
-				"gradient-radial":
-					"radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
-			},
-			animation: {
-				"fade-in": "fade-in 3s ease-in-out forwards",
-				title: "title 3s ease-out forwards",
-				"fade-left": "fade-left 3s ease-in-out forwards",
-				"fade-right": "fade-right 3s ease-in-out forwards",
-			},
-			keyframes: {
-				"fade-in": {
-					"0%": {
-						opacity: "0%",
-					},
-					"75%": {
-						opacity: "0%",
-					},
-					"100%": {
-						opacity: "100%",
-					},
-				},
-				"fade-left": {
-					"0%": {
-						transform: "translateX(100%)",
-						opacity: "0%",
-					},
-
-					"30%": {
-						transform: "translateX(0%)",
-						opacity: "100%",
-					},
-					"100%": {
-						opacity: "0%",
-					},
-				},
-				"fade-right": {
-					"0%": {
-						transform: "translateX(-100%)",
-						opacity: "0%",
-					},
-
-					"30%": {
-						transform: "translateX(0%)",
-						opacity: "100%",
-					},
-					"100%": {
-						opacity: "0%",
-					},
-				},
-				title: {
-					"0%": {
-						"line-height": "0%",
-						"letter-spacing": "0.25em",
-						opacity: "0",
-					},
-					"25%": {
-						"line-height": "0%",
-						opacity: "0%",
-					},
-					"80%": {
-						opacity: "100%",
-					},
-
-					"100%": {
-						"line-height": "100%",
-						opacity: "100%",
-					},
-				},
-			},
-		},
-	},
-	plugins: [
-		require("@tailwindcss/typography"),
-		require("tailwindcss-debug-screens"),
-	],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        primary: ['Inter', ...fontFamily.sans],
+      },
+      colors: {
+        primary: {
+          DEFAULT: 'rgb(var(--tw-color-primary-500) / <alpha-value>)',
+          50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',
+          100: 'rgb(var(--tw-color-primary-100) / <alpha-value>)',
+          200: 'rgb(var(--tw-color-primary-200) / <alpha-value>)',
+          300: 'rgb(var(--tw-color-primary-300) / <alpha-value>)',
+          400: 'rgb(var(--tw-color-primary-400) / <alpha-value>)',
+          500: 'rgb(var(--tw-color-primary-500) / <alpha-value>)',
+          600: 'rgb(var(--tw-color-primary-600) / <alpha-value>)',
+          700: 'rgb(var(--tw-color-primary-700) / <alpha-value>)',
+          800: 'rgb(var(--tw-color-primary-800) / <alpha-value>)',
+          900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
+        },
+        dark: '#111111',
+      },
+      keyframes: {
+        flicker: {
+          '0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%': {
+            opacity: 0.99,
+            filter:
+              'drop-shadow(0 0 1px rgba(252, 211, 77)) drop-shadow(0 0 15px rgba(245, 158, 11)) drop-shadow(0 0 1px rgba(252, 211, 77))',
+          },
+          '20%, 21.999%, 63%, 63.999%, 65%, 69.999%': {
+            opacity: 0.4,
+            filter: 'none',
+          },
+        },
+        shimmer: {
+          '0%': {
+            backgroundPosition: '-700px 0',
+          },
+          '100%': {
+            backgroundPosition: '700px 0',
+          },
+        },
+      },
+      animation: {
+        flicker: 'flicker 3s linear infinite',
+        shimmer: 'shimmer 1.3s linear infinite',
+      },
+    },
+  },
+  variants: {
+    typography: ['dark'],
+  },
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  darkMode: 'class',
 };
