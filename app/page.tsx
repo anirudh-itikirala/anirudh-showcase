@@ -42,7 +42,7 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             unkey.dev
-          </Link> Aarti Itikirala for developers.
+          </Link> a personal portfolio to showcase my works.
         </h2>
       </div>
     </div>
