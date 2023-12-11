@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import NET from 'vanta/dist/vanta.net.min';
 import * as THREE from 'three';
-import Footer from '@/components/layout/Footer';
-import Seo from '@/components/Seo';
+import Footer from './components/Footer';
+import Seo from './components/Seo';
 import Particles from './components/particles';
 
 const navigation = [
