@@ -105,29 +105,13 @@ export default function Landing() {
                       on my{' '}
                       <ArrowLink
                         className='font-bold text-slate-700 dark:text-gray-300'
-                        href='https://github.com/ahluwalij'
+                        href='https://github.com/aitikirala'
                       >
                         GitHub
                       </ArrowLink>
                     </h3>
                   </div>
-                  {/* <h3 className='flex flex-wrap gap-1'>
-                    With
-                    <div
-                      id='clones'
-                      className='font-bold text-slate-700 dark:text-gray-300'
-                    >
-                      ...
-                    </div>
-                    clones and
-                    <div
-                      id='views'
-                      className='font-bold text-slate-700 dark:text-gray-300'
-                    >
-                      ...
-                    </div>
-                    views in the last 14 days
-                  </h3> */}
+                  {}
                 </div>
               </h1>
 
