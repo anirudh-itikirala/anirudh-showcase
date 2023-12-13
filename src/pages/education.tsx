@@ -70,7 +70,7 @@ export default function Education() {
                   <br />
                   <h1 className='prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl'>
                     <div>BS in Computer Science</div>
-                    <div>August 2021 - May 2025</div>
+                    <div>August 2020 - May 2024</div>
                   </h1>
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
@@ -98,49 +98,7 @@ export default function Education() {
                   </h6>
                 </div>
               </div>
-              {/* AKPSI PANE */}
-              <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
-                  <h1 className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:hidden sm:text-5xl'>
-                    Alpha Kappa Psi Professional Fraternity
-                  </h1>
-                  <h1 className='leading-1 prose hidden text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:inline sm:text-5xl'>
-                    AKPsi Professional Fraternity
-                  </h1>
-                  <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    <div>Technology Chair</div>
-                    <div>November 2022 - May 2023</div>
-                  </h1>
-                </div>
-                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
-                  <h6>
-                    <div className='ml-6'>
-                      <li>
-                        Built a dashboard & algorithm to optimize engagement
-                        using Scikit-learn, Pandas, Angular Material, &
-                        Chart.js.
-                      </li>
-                      <li>
-                        Led 18 discussions on current tech events, summarizing
-                        recent papers, and analyzing tech company decisions.
-                      </li>
-                      <li>
-                        Created a lifetime member database using Python, Django,
-                        & PostGreSQL for alumni tracking & analysis.
-                      </li>
-                    </div>
-                  </h6>
-                  {/* <div className='flex w-full justify-end'>
-                    <ArrowLink
-                      className='text-sm'
-                      href='https://www.jasdeepahluwalia.com/experience/proxyfarm'
-                    >
-                      Learn More
-                    </ArrowLink>
-                  </div> */}
-                </div>
-              </div>
+              
               {/* BigTh!nk AI PANE */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
@@ -188,51 +146,7 @@ export default function Education() {
                   </div> */}
                 </div>
               </div>
-              {/* Johns Hopkins Biomedical Engineering PANE */}
-              <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
-                  <UnderlineLink
-                    className='leading-1 prose w-min text-left text-[1.8rem] font-semibold leading-10 dark:prose-invert sm:text-4xl md:text-5xl lg:hidden'
-                    href='https://ei.jhu.edu/programs/bmei-online/'
-                  >
-                    Johns Hopkins BMEI
-                  </UnderlineLink>
-                  <UnderlineLink
-                    className='leading-1 prose hidden w-min text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl lg:block'
-                    href='https://ei.jhu.edu/programs/bmei-online/'
-                  >
-                    Johns Hopkins BioEngineering
-                  </UnderlineLink>
-                  <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    Sept 2020 - Jan 2021
-                  </h1>
-                </div>
-                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
-                  <h6>
-                    Modeled systems using engineering principles to solve
-                    biological, physiological, and/or medical design problems
-                    over a six-week period.
-                    <div className='ml-6'>
-                      <li>
-                        Developed a prototype for a wearable device that
-                        monitors vital signs and alerts healthcare providers of
-                        any anomalies, demonstrating a deep understanding of
-                        both hardware and software design principles.
-                      </li>
-                      <li>
-                        Collaborated with a team of engineers and medical
-                        professionals to ensure the prototype's functionality
-                        and accuracy in real-world situations.
-                      </li>
-                      <li>
-                        Presented project outcomes to a panel of experts and
-                        received constructive feedback for further improvement
-                      </li>
-                    </div>
-                  </h6>
-                </div>
-              </div>
+              
             </div>
             <Footer />
           </div>
