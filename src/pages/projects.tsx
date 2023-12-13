@@ -94,7 +94,7 @@ export default function Projects() {
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://github.com/ahluwalij/plateplanner-meal-generator'
+                      //href='https://github.com/ahluwalij/plateplanner-meal-generator'
                     >
                       See the repository
                     </ArrowLink>
@@ -145,7 +145,7 @@ export default function Projects() {
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://www.jasdeepahluwalia.com/projects/hash'
+                      //href='https://www.jasdeepahluwalia.com/projects/hash'
                     >
                       Learn More
                     </ArrowLink>
@@ -186,7 +186,7 @@ export default function Projects() {
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://github.com/ahluwalij/RegEx-Engine'
+                      //href='https://github.com/ahluwalij/RegEx-Engine'
                     >
                       See the repository
                     </ArrowLink>
@@ -224,7 +224,7 @@ export default function Projects() {
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://github.com/ahluwalij/AlgoTrader'
+                      //href='https://github.com/ahluwalij/AlgoTrader'
                     >
                       See the repository
                     </ArrowLink>

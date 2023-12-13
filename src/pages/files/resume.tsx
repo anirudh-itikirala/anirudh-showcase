@@ -7,7 +7,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import ButtonLink from '@/components/links/ButtonLink';
 import Seo from '@/components/Seo';
 
-<Viewer fileUrl='../assets/Jasdeep_Ahluwalia_Resume.pdf' />;
+<Viewer fileUrl='../assets/Aarti-Itikirala-Resume.pdf' />;
 
 export default function Resume() {
   return (
@@ -26,7 +26,7 @@ export default function Resume() {
       </header>
       <div className='bg-white py-10'>
         <Worker workerUrl='https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js'>
-          <Viewer fileUrl='../assets/Jasdeep_Ahluwalia_Resume.pdf' />
+          <Viewer fileUrl='../assets/Aarti-Itikirala-Resume.pdf' />
         </Worker>
       </div>
     </main>
