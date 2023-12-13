@@ -40,10 +40,7 @@ export default function Work() {
     setFade(true);
   };
 
-  /*
   return (
-
-    
     <Layout>
       <Seo templateTitle='Work Experience' />
       <main>
@@ -56,7 +53,7 @@ export default function Work() {
         >
           <div className='layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12 '>
             <div className='mt-16 flex w-full flex-col'>
-              {}
+              {/* MICHELIN PANE */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
@@ -106,7 +103,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-              {}
+              {/* SELLERCHAIN PANE */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
@@ -180,7 +177,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-              {}
+              {/* PROXYFARM PANE */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
@@ -237,7 +234,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-              {}
+              {/* THE BOT TRADE PANE */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
@@ -294,7 +291,5 @@ export default function Work() {
         </section>
       </main>
     </Layout>
-    
   );
-  */
 }
