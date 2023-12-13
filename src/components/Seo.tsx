@@ -4,9 +4,9 @@ import { useRouter } from 'next/router';
 import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
-  title: 'Aarti Itikirala',
-  siteName: 'Aarti Itikirala',
-  description: "Aarti's Portfolio",
+  title: 'Jasdeep Ahluwalia',
+  siteName: 'Jasdeep Ahluwalia',
+  description: "Jazz Ahluwalia's portfolio, a fullstack expression!",
   url: 'https://jasdeepahluwalia.com',
   type: 'website',
   robots: 'follow, index',
@@ -65,7 +65,7 @@ export default function Seo(props: SeoProps) {
           <meta
             name='author'
             property='article:author'
-            content='Aarti Itikirala'
+            content='Jasdeep Ahluwalia'
           />
         </>
       )}

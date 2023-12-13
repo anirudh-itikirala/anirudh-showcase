@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         {}
         <div>
-          <UnderlineLink href='/files/resume'>Resume</UnderlineLink>
+          <UnderlineLink href='public/assets/Aarti-Itikirala-Resume.pdf'>Resume</UnderlineLink>
         </div>
       </div>
     </footer>
