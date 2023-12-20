@@ -84,10 +84,7 @@ export default function Landing() {
                 </div>
               </h1>
 
-              {/* <h2 className='prose flex max-w-screen-sm items-start text-left text-3xl font-semibold leading-10 tracking-wide dark:prose-invert max-[768px]:mt-60 max-[700px]:mt-52 max-[500px]:mt-44 max-[436px]:mt-32 max-[390px]:mt-12 sm:text-4xl md:mt-72 xl:mt-[27.5rem]'>
-                Fullstack Developer with a passion for developing amazing things
-                for amazing people.
-              </h2> */}
+              {}
             </div>
 
             <div className='mt-auto flex w-full justify-center'>

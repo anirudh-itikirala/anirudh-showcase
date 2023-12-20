@@ -53,14 +53,14 @@ export default function Work() {
         >
           <div className='layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12 '>
             <div className='mt-16 flex w-full flex-col'>
-              {/* MICHELIN PANE */}
+              {/* PEOPLE TECH PANE */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
                     className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
-                    href='https://ddi.michelin.com/en/our-expertise/'
+                    href='https://github.com/aitikirala/PTG-Custom-Connector'
                   >
-                    Michelin
+                    People Tech Group
                   </UnderlineLink>
                   <br />
                   <h1 className='prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl'>
@@ -70,103 +70,57 @@ export default function Work() {
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
                   <h6>
-                    Interned on the Data Analytics and ML department, deploying
-                    tools and features for other teams at Michelin.
-                    <div className='ml-6'>
-                      <li>
-                        Helped enable non-SQL searches on the Corporate Data
-                        Lake by optimizing a GPT/Elasticsearch-based data
-                        processor and integrating an Angular Chatbot alongside 2
-                        AI/ML engineers, used by 100+ employees daily.
-                      </li>
-                      <li>
-                        Placed 2nd/107 teams in an AI/ML hackathon, utilizing
-                        PyTorch & Snowflake for predictive modeling.
-                      </li>
-                      <li>
-                        Built a prediction feature in an inventory app using
-                        Regression Models, NumPy, Pandas, MySQL, & Spark.
-                      </li>
-                      <li>
-                        Converted a Power BI app to a custom analytics app using
-                        Angular, Hadoop, Chart.js, & Integration Testing.
-                      </li>
-                    </div>
+                  Developed a Custom Github Connector: Leveraged AWS Lambda and App Flow to design and implement a custom Github connector, enabling seamless integration and automation of code repository workflows. Collaborated with cross-functional teams to ensure security, scalability, and efficiency.
                   </h6>
+
+                  <h6>
+                  Engineered a Workday Connector: Created a tailored Workday connector using AWS Lambda and App Flow, facilitating real-time data synchronization and automation between HR systems and internal applications. Led the process of testing, deployment, and ongoing support, contributing to improved operational efficiency
+                    </h6>
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://ddi.michelin.com/en/our-expertise/'
+                      href='https://github.com/aitikirala/PTG-Custom-Connector'
                     >
                       Learn More
                     </ArrowLink>
                   </div>
                 </div>
               </div>
-              {/* SELLERCHAIN PANE */}
+              {/* UMD MATH COACH */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
                     className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
                     href='https://beta.sellerchain.com'
                   >
-                    Sellerchain
+                    University of Maryland
                   </UnderlineLink>
                   <br />
                   <h1 className='prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl'>
-                    <div>SWE Intern</div>
+                    <div>Math Coach</div>
                     <div>June 2022 - August 2022</div>
                   </h1>
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
-                  <h6>
-                    Helped revamp existing and new applications into modern,
-                    scalable projects for Amazon merchants and developers.
+                  <h6>Conducted Weekly Sessions
                     <div className='ml-6'>
                       <li>
-                        Proposed and optimized an ML algorithm for Amazon
-                        shipments, and integrated it into current backend
-                        systems.
+                      Detailed key calculus concepts at a designated UMD faculty building, providing comprehensive guidance to students and ensuring a robust understanding of intricate Calculus principles.
                       </li>
-                      <li>
-                        Successfully shipped a redesign of the{' '}
-                        <UnderlineLink
-                          className='leading-7'
-                          href='https://shipmentmakerpro.com'
-                        >
-                          Shipment Maker Pro
-                        </UnderlineLink>{' '}
-                        website to Angular Material. Collaborated with a design
-                        team to efficiently provide a great user experience.
-                      </li>
-                      <li>
-                        Achieved 3x speed up in shipment calculation using
-                        Reinforcement Learning for optimal warehouse routing.
-                      </li>
-                      <li>
-                        Reduced costs by $400+/mo by transitioning a large
-                        PostGreSQL shipment database from local to AWS RDS.
-                      </li>
-                      <li>
-                        Employed Modular Programming, Material Design, Angular
-                        14, Git, and best practices to build a cutting-edge .NET
-                        core app, contributing to the company's overall product
-                        suite and client satisfaction.
-                      </li>
-                      <li>
-                        Maintained proactive communication with the startup's
-                        CEO, asset teams, and fellow developers for rapid and
-                        efficient progress, consistently meeting project
-                        milestones and delivering high-quality code.
-                      </li>
-                      <li>
-                        Actively participated in Agile development processes,
-                        including daily stand-ups, sprint planning, and
-                        retrospec- tives, ensuring seamless team collaboration
-                        and timely project completion
-                      </li>
+                        
                     </div>
                   </h6>
+
+                  <h6>Facilitated Homework and Exam Preparation
+
+                  <div className='ml-6'>
+                      <li>
+                      : Assisted students with challenging homework problems, tailored test preparation strategies to individual learning styles, and offered personalized tutoring sessions, leading to improved academic performance and enhanced comprehension among participants.
+                      </li>
+                        
+                  </div>
+                  </h6>
+                  
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
