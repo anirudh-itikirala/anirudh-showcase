@@ -192,14 +192,20 @@ export default function Work() {
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
                   <h6>
+                    <li>
                   Collected, coded, and prepared state-level COVID-19 as well as political affiliation data
+                  </li>
                   </h6>
                   <h6>
+                    <li>
                   Verified user-reported Twitter data using online research
+                   </li>
                   </h6>
 
                   <h6>
+                  <li>
                   Analyzed Twitter data to understand the spatiotemporal spread of misinformation regarding mask use
+                  </li>
                   </h6>
                   <div className='flex w-full justify-end'>
                     <ArrowLink
