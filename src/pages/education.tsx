@@ -100,45 +100,41 @@ export default function Education() {
                 </div>
               </div>
               {/* Honors Humanities */}
-              <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
-                  <h1 className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:hidden sm:text-5xl'>
-                    Honors College
-                  </h1>
-                  <h1 className='leading-1 prose hidden text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:inline sm:text-5xl'>
-                    Honors Humanities
-                  </h1>
-                  <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    <div>Capstone Holder</div>
-                    <div>August 2020 - Present</div>
-                  </h1>
-                </div>
-                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
-                  <h6>
-                    <div className='ml-6'>
-                      <li>
-                      Developed an informative website that explores the ethical implications of artificial intelligence, presenting well-researched content on the moral considerations, societal impacts, and potential future developments in the field of AI.
-                      </li>
-                      <li>
-                      Conducted a thorough analysis of sacred texts pivotal to Hinduism and composed a reflective narrative on the influence of Hindu teachings in providing resilience and guidance to my family during challenging times.
-                      </li>
-                      <li>
-                      </li>
-                    </div>
-                  </h6>
-                  {}
-                </div>
-                <div className='flex w-full justify-end'>
-                    <ArrowLink
-                      className='text-sm'
-                      href='https://aartificialintelligence.mailchimpsites.com'
-                    >
-                      Learn More
-                    </ArrowLink>
-                  </div>
-                
-              </div>
+              const honorsHumanitiesPane = (
+  <div className='pane'>
+    <div className='w-5/6 pt-12 text-left md:w-2/5'>
+      <UnderlineLink
+        className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
+        href='https://honors.umd.edu'
+      >
+        Honors Humanities
+      </UnderlineLink>
+      <br />
+      <h1 className='prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl'>
+        <div>Capstone Holder</div>
+        <div>August 2020 - Present</div>
+      </h1>
+    </div>
+    <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
+      <ul className='list-disc ml-6 space-y-2'>
+        <li>
+          Developed an informative website focusing on the ethical implications of AI, providing in-depth analysis on its societal impacts and future potential.
+        </li>
+        <li>
+          Conducted a detailed study of Hindu texts, sharing a personal narrative of how its teachings have supported my family.
+        </li>
+      </ul>
+    </div>
+    <div className='flex w-full justify-end pt-4'>
+      <ArrowLink
+        className='text-sm'
+        href='https://honors.umd.edu/capstone-project'
+      >
+        Learn More
+      </ArrowLink>
+    </div>
+  </div>
+);
 
               {/* I4C Student Advisory Board */}
               <div className='pane'>
