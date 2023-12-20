@@ -7,6 +7,7 @@ import Footer from '@/components/layout/Footer';
 import Layout from '@/components/layout/Layout';
 import UnderlineLink from '@/components/links/UnderlineLink';
 import Seo from '@/components/Seo';
+import ArrowLink from '@/components/links/ArrowLink';
 
 export default function Education() {
   const [vantaEffect, setVantaEffect] = React.useState(0);
@@ -70,7 +71,7 @@ export default function Education() {
                   <br />
                   <h1 className='prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl'>
                     <div>BS in Computer Science</div>
-                    <div>August 2021 - May 2025</div>
+                    <div>August 2020 - May 2024</div>
                   </h1>
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
@@ -78,81 +79,79 @@ export default function Education() {
                     Courses taken during my time at the University of Maryland -
                     College Park:
                     <div className='ml-6'>
-                      <li>Intro Computing (Python)</li>
                       <li>Object Oriented Programming (Java)</li>
-                      <li>Data Structures (Java)</li>
+                      <li>Advanced Data Structures (Java)</li>
                       <li>
                         Functional Programming/Data Structures (Rust, OCaml,
                         Ruby)
                       </li>
                       <li>Advanced Linear Algebra</li>
+                      <li>Discrete Structures (Mathematical reasoning, combinatorics, trees, discrete probability.)</li>
                       <li>Computer System Organization (C/C++)</li>
                       <li>
                         Practical Tools for Data Science (SQL, Tableau, Python)
                       </li>
-                      <li>Machine Bc Learning</li>
+                      <li>App Development (Kotlin, Swift)</li>
+                      <li>Compilers (C, Racket) </li>
                       <li>Algorithms</li>
-                      <li>Optimization</li>
-                      <li>Data-Driven Web Applications(Javascript)</li>
+                      <li> Applied Probability and Statistics (R, SAS, ANOVA, Hypothesis Testing) </li>
                     </div>
                   </h6>
                 </div>
               </div>
-              {/* AKPSI PANE */}
+              {/* Honors Humanities */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <h1 className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:hidden sm:text-5xl'>
-                    Alpha Kappa Psi Professional Fraternity
+                    Honors College
                   </h1>
                   <h1 className='leading-1 prose hidden text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:inline sm:text-5xl'>
-                    AKPsi Professional Fraternity
+                    Honors Humanities
                   </h1>
                   <br />
                   <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    <div>Technology Chair</div>
-                    <div>November 2022 - May 2023</div>
+                    <div>Capstone Holder</div>
+                    <div>August 2020 - Present</div>
                   </h1>
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
                   <h6>
                     <div className='ml-6'>
                       <li>
-                        Built a dashboard & algorithm to optimize engagement
-                        using Scikit-learn, Pandas, Angular Material, &
-                        Chart.js.
+                      Developed an informative website that explores the ethical implications of artificial intelligence, presenting well-researched content on the moral considerations, societal impacts, and potential future developments in the field of AI.
                       </li>
                       <li>
-                        Led 18 discussions on current tech events, summarizing
-                        recent papers, and analyzing tech company decisions.
+                      Conducted a thorough analysis of sacred texts pivotal to Hinduism and composed a reflective narrative on the influence of Hindu teachings in providing resilience and guidance to my family during challenging times.
                       </li>
                       <li>
-                        Created a lifetime member database using Python, Django,
-                        & PostGreSQL for alumni tracking & analysis.
                       </li>
                     </div>
                   </h6>
-                  {/* <div className='flex w-full justify-end'>
+                  {}
+                </div>
+                <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://www.jasdeepahluwalia.com/experience/proxyfarm'
+                      href='https://aartificialintelligence.mailchimpsites.com'
                     >
                       Learn More
                     </ArrowLink>
-                  </div> */}
-                </div>
+                  </div>
+                
               </div>
-              {/* BigTh!nk AI PANE */}
+
+              {/* I4C Student Advisory Board */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <h1 className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:hidden sm:text-5xl'>
-                    BigTh!nk AI
+                  I4C Student Advisory Board 
                   </h1>
                   <h1 className='leading-1 prose hidden text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:inline sm:text-5xl'>
-                    BigTh!nk AI Club
+                  I4C Student Advisory Board 
                   </h1>
                   <br />
                   <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    August 2022 - Current
+                    August 2020 - May 2021
                   </h1>
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
@@ -178,22 +177,55 @@ export default function Education() {
                       </li>
                     </div>
                   </h6>
-                  {/* <div className='flex w-full justify-end'>
+                  {}
+                </div>
+              {/* International Economics and Finance Society*/}
+              <div className='pane'>
+                <div className='w-5/6 pt-12 text-left md:w-2/5'>
+                  <h1 className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:hidden sm:text-5xl'>
+                    BigTh!nk AI
+                  </h1>
+                  <h1 className='leading-1 prose hidden text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:inline sm:text-5xl'>
+                    BigTh!nk AI Club
+                  </h1>
+                  <br />
+                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
+                    August 2022 - Current
+                  </h1>
+                </div>
+                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
+                  <h6>
+                  Research and analyze global economic trends and financial news, providing insightful commentary on current affairs both domestically and internationally.
+                    <div className='ml-6'>
+                      <li>
+                      Contribute to the society's mission by preparing presentations and reports that drive conversations on economic stability and growth prospects.
+                      </li>
+                      <li>
+                      Publish well-crafted articles on Medium, elucidating complex economic concepts and their real-world implications for a diverse readership.
+                      </li>
+                      <li>
+                      Collaborate with club members to facilitate discussions on international trade, monetary policy, and market dynamics, enhancing collective understanding.
+                      </li>
+                    </div>
+                  </h6>
+                  {}
+                </div>
+
+                <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://www.jasdeepahluwalia.com/experience/proxyfarm'
+                      href=' https://medium.com/umd-iefs-online-content/economics-of-vaccine-development-382b330c93b'
                     >
                       Learn More
                     </ArrowLink>
-                  </div> */}
-                </div>
+                  </div>
               </div>
-              {/* Johns Hopkins Biomedical Engineering PANE */}
+              {/* WMUC */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
                     className='leading-1 prose w-min text-left text-[1.8rem] font-semibold leading-10 dark:prose-invert sm:text-4xl md:text-5xl lg:hidden'
-                    href='https://ei.jhu.edu/programs/bmei-online/'
+                    href='https://www.wmuc.umd.edu'
                   >
                     Johns Hopkins BMEI
                   </UnderlineLink>
@@ -232,6 +264,7 @@ export default function Education() {
                     </div>
                   </h6>
                 </div>
+              </div>
               </div>
             </div>
             <Footer />
