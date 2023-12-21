@@ -325,45 +325,46 @@ export default function Education() {
               <div className="pane">
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
-                    className="leading-1 prose w-min text-left text-[1.8rem] font-semibold leading-10 dark:prose-invert sm:text-4xl md:text-5xl lg:hidden"
-                    href="https://www.wmuc.umd.edu"
+                    className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
+                    href="https://www.cs.umd.edu/"
                   >
-                    Johns Hopkins BMEI
+                    WMUC Radio
                   </UnderlineLink>
                   <UnderlineLink
-                    className="leading-1 prose hidden w-min text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl lg:block"
-                    href="https://ei.jhu.edu/programs/bmei-online/"
+                    className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
+                    href="https://www.cs.umd.edu/"
                   >
-                    Johns Hopkins BioEngineering
+                    WMUC Radio
                   </UnderlineLink>
                   <br />
-                  <h1 className="prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl">
-                    Sept 2020 - Jan 2021
+                  <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
+                    
+                    <div>August 2020 - January 2021</div>
                   </h1>
                 </div>
                 <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
                   <h6>
-                    Modeled systems using engineering principles to solve
-                    biological, physiological, and/or medical design problems
-                    over a six-week period.
+                    {" "}
                     <div className="ml-6">
                       <li>
-                        Developed a prototype for a wearable device that
-                        monitors vital signs and alerts healthcare providers of
-                        any anomalies, demonstrating a deep understanding of
-                        both hardware and software design principles.
+                      Worked with a team of UMD students and some members of the IT department to remodel the UI and backend of the WMUC website 
                       </li>
                       <li>
-                        Collaborated with a team of engineers and medical
-                        professionals to ensure the prototype's functionality
-                        and accuracy in real-world situations.
-                      </li>
-                      <li>
-                        Presented project outcomes to a panel of experts and
-                        received constructive feedback for further improvement
+                      Introduction to JavaScript, Node.js, Ghost APIs, and GitLab.
                       </li>
                     </div>
                   </h6>
+
+                  <div className="flex w-full justify-end">
+                    <ArrowLink
+                      className="text-sm"
+                      href="https://medium.com/umd-iefs-online-content/economics-of-vaccine-development-382b330c93b"
+                    >
+                      Check it Out
+                    </ArrowLink>
+                  </div>
+
+
                 </div>
               </div>
             </div>
