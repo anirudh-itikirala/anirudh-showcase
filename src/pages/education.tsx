@@ -31,7 +31,7 @@ export default function Education() {
     handleMenuClick();
   }, [vantaEffect]);
 
-  // eslint-disable-next-line unused-imports/no-unused-vars
+  // WORK ON REMAINING CLUBS AND THINGS
   const [popCard, setPopCard] = React.useState('hidden');
   const [fade, setFade] = React.useState(false);
 
