@@ -1,13 +1,9 @@
-import { Worker } from '@react-pdf-viewer/core';
-import { Viewer } from '@react-pdf-viewer/core';
+import { Worker, Viewer } from '@react-pdf-viewer/core';
 import * as React from 'react';
-
 import '@react-pdf-viewer/core/lib/styles/index.css';
 
 import ButtonLink from '@/components/links/ButtonLink';
 import Seo from '@/components/Seo';
-
-<Viewer fileUrl='../assets/Aarti_Itikirala_Resume.pdf' />;
 
 export default function Resume() {
   return (
