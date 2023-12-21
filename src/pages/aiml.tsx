@@ -58,7 +58,7 @@ export default function AIML() {
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
                     className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
-                    href='https://github.com/ahluwalij/Machine-Learning-CO2-Emission-Predictive-Analysis'
+                    href='https://github.com/aitikirala/aitikirala.github.io'
                   >
                     Application of ML
                     <br />
@@ -96,112 +96,7 @@ export default function AIML() {
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://www.jasdeepahluwalia.com/files/notebooks/co2_emission'
-                    >
-                      See the notebook
-                    </ArrowLink>
-                  </div>
-                </div>
-              </div>
-              {/* MALARIA PANE */}
-              <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
-                  <UnderlineLink
-                    className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert max-[365px]:w-min sm:text-5xl'
-                    href='https://github.com/ahluwalij/Malaria-in-Blood-AI-Detection'
-                  >
-                    AI Malaria
-                    <br />
-                    Image Detection
-                  </UnderlineLink>
-                  <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    Dec 2022
-                  </h1>
-                </div>
-                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
-                  <h6>
-                    Utilized Convolutional Neural Networks (CNNs) for Malaria
-                    diagnosis via cell image classification. A comprehensive
-                    pipeline from data acquisition to model evaluation,
-                    achieving an impressive 85% accuracy.
-                    <div className='ml-6'>
-                      <li>
-                        Developed a comprehensive pipeline from data acquisition
-                        and preprocessing to training and evaluating a deep
-                        learning model, resulting in an 85% accuracy rate on
-                        unseen test data.
-                      </li>
-                      <li>
-                        Implemented shuffling and batch normalization during the
-                        preprocessing phase, improving model performance by 10%
-                        compared to previous attempts.
-                      </li>
-                      <li>
-                        Optimized hyperparameters of the CNN using TensorFlow
-                        and Keras, resulting in a reduction of false negatives
-                        by 20%.
-                      </li>
-                    </div>
-                  </h6>
-                  <div className='flex w-full justify-end'>
-                    <ArrowLink
-                      className='text-sm'
-                      href='https://www.jasdeepahluwalia.com/files/notebooks/malaria_detection'
-                    >
-                      See the notebook
-                    </ArrowLink>
-                  </div>
-                </div>
-              </div>
-              {/* MALARIA PANE */}
-              <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
-                  <UnderlineLink
-                    className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert max-[365px]:w-min sm:text-5xl'
-                    href='https://github.com/ahluwalij/Moneyball-Data-Analytics'
-                  >
-                    Applied Data Science
-                    <br />
-                    on Baseball Players
-                  </UnderlineLink>
-                  <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    Nov 2022
-                  </h1>
-                </div>
-                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
-                  <h6>
-                    Applying data wrangling and exploratory data analysis skills
-                    to baseball data like the movie Moneyball.
-                    <div className='ml-6'>
-                      <li>
-                        Analyzed 25 years of Major League Baseball data using
-                        advanced data wrangling and exploratory data analysis
-                        techniques to gain insights into team spending
-                        efficiencies, resulting in a comprehensive report
-                        highlighting the Oakland A's "Moneyball" strategy.
-                      </li>
-                      <li>
-                        Utilized linear regression models to calculate expected
-                        win percentage based on standardized payroll for each
-                        team, then determined each team's spending efficiency as
-                        the ratio of their actual win percentage to their
-                        expected win percentage.
-                      </li>
-                      <li>
-                        Created scatter plots and other visualizations to
-                        clearly show the positive correlation between a team's
-                        payroll and its winning percentage, as well as highlight
-                        the importance of spending efficiency in achieving
-                        success.
-                      </li>
-                    </div>
-                  </h6>
-                  <div className='flex w-full justify-end'>
-                    <ArrowLink
-                      className='text-sm'
-                      href='https://www.jasdeepahluwalia.com/files/notebooks/moneyballn'
+                      href='https://aitikirala.github.io'
                     >
                       See the notebook
                     </ArrowLink>

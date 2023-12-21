@@ -53,18 +53,18 @@ export default function Projects() {
         >
           <div className='layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12 '>
             <div className='mt-16 flex w-full flex-col'>
-              {/* PLATEPLANNER PANE */}
+              {/* Campus Connector */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
                     className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
                     href='https://www.plateplanner.org/'
                   >
-                    PlatePlanner
+                    Campus Connector
                   </UnderlineLink>
                   <br />
                   <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    May 2023
+                    September 2022 - December 2022
                   </h1>
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
