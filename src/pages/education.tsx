@@ -106,6 +106,7 @@ export default function Education() {
                   </h6>
                 </div>
               </div>
+              
               {/* Honors Humanities */}
               <div className="pane">
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
@@ -119,7 +120,7 @@ export default function Education() {
                     className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
                     href="https://www.cs.umd.edu/"
                   >
-                    Honors Humanities
+                    Honors College
                   </UnderlineLink>
                   <br />
                   <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
@@ -154,6 +155,45 @@ export default function Education() {
                       Learn More
                     </ArrowLink>
                   </div>
+                </div>
+              </div>
+
+              {/* Frisbee */}
+              <div className="pane">
+                <div className="w-5/6 pt-12 text-left md:w-2/5">
+                  <UnderlineLink
+                    className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
+                    href="https://www.cs.umd.edu/"
+                  >
+                    Club Ultimate Frisbee
+                  </UnderlineLink>
+                  <UnderlineLink
+                    className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
+                    href="https://www.cs.umd.edu/"
+                  >
+                    Club Ultimate Frisbee
+                  </UnderlineLink>
+                  <br />
+                  <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
+                    
+                    <div>August 2022 - Present</div>
+                  </h1>
+                </div>
+                <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
+                  <h6>
+                    {" "}
+                    <div className="ml-6">
+                      <li>
+                      Attend weekly practice sessions three times a week to maintain skill level and team cohesion.
+                      </li>
+                      <li>
+                      Travel to away games as needed, contingent upon qualification and team selection.
+                      </li>
+                      <li>
+                      Participate in team hangouts and activities to foster team spirit and camaraderie.
+                      </li>
+                    </div>
+                  </h6>
                 </div>
               </div>
 
