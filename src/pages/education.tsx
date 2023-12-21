@@ -338,7 +338,7 @@ export default function Education() {
                   </UnderlineLink>
                   <br />
                   <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
-                    
+                  <div>Web Dev Volunteer</div>
                     <div>August 2020 - January 2021</div>
                   </h1>
                 </div>
