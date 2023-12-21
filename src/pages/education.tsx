@@ -101,15 +101,21 @@ export default function Education() {
               </div>
               {/* Honors Humanities */}
               <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
-                  <h1 className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:hidden sm:text-5xl'>
+              <div className='w-5/6 pt-12 text-left md:w-2/5'>
+                  <UnderlineLink
+                    className='leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden'
+                    href='https://www.cs.umd.edu/'
+                  >
                     Honors College
-                  </h1>
-                  <h1 className='leading-1 prose hidden text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert min-[470px]:inline sm:text-5xl'>
+                  </UnderlineLink>
+                  <UnderlineLink
+                    className='leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline'
+                    href='https://www.cs.umd.edu/'
+                  >
                     Honors Humanities
-                  </h1>
+                  </UnderlineLink>
                   <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
+                  <h1 className='prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl'>
                     <div>Capstone Holder</div>
                     <div>August 2020 - Present</div>
                   </h1>
