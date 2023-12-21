@@ -125,6 +125,13 @@ export default function Work() {
               {/* UMD MATH COACH */}
               <div className="pane">
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
+                  <UnderlineLink
+                    className="leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl"
+                    href="https://umd.edu"
+                  >
+                    University of Maryland
+                  </UnderlineLink>
+                  <br />
                   <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl">
                     <div>Math Coach</div>
                     <div> August 2021 - January 2022</div>
@@ -181,7 +188,7 @@ export default function Work() {
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl"
-                    href="https://www.linkedin.com/in/aarti-itikirala/details/recommendations/?detailScreenTabIndex=0"
+                    href="https://umd.edu"
                   >
                     University of Maryland
                   </UnderlineLink>

@@ -112,13 +112,13 @@ export default function Education() {
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
-                    href="https://www.cs.umd.edu/"
+                    href="https://honors.umd.edu"
                   >
                     Honors College
                   </UnderlineLink>
                   <UnderlineLink
                     className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
-                    href="https://www.cs.umd.edu/"
+                    href="https://honors.umd.edu"
                   >
                     Honors College
                   </UnderlineLink>
@@ -163,13 +163,13 @@ export default function Education() {
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
-                    href="https://www.cs.umd.edu/"
+                    href="https://sites.google.com/site/umdwomensultimate/info-for-new-players"
                   >
                     Club Ultimate Frisbee
                   </UnderlineLink>
                   <UnderlineLink
                     className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
-                    href="https://www.cs.umd.edu/"
+                    href="https://sites.google.com/site/umdwomensultimate/info-for-new-players"
                   >
                     Club Ultimate Frisbee
                   </UnderlineLink>
@@ -202,13 +202,13 @@ export default function Education() {
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
-                    href="https://www.cs.umd.edu/"
+                    href="https://inclusion.cs.umd.edu"
                   >
                     I4C Student Advisory Board
                   </UnderlineLink>
                   <UnderlineLink
                     className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
-                    href="https://www.cs.umd.edu/"
+                    href="https://inclusion.cs.umd.edu"
                   >
                     I4C Student Advisory Board
                   </UnderlineLink>
@@ -271,13 +271,13 @@ export default function Education() {
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
-                    href="https://www.cs.umd.edu/"
+                    href="https://terplink.umd.edu/organization/international-economics-and-finance-society"
                   >
                     IEFS
                   </UnderlineLink>
                   <UnderlineLink
                     className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
-                    href="https://www.cs.umd.edu/"
+                    href="https://terplink.umd.edu/organization/international-economics-and-finance-society"
                   >
                     International Economics and Finance Society
                   </UnderlineLink>
@@ -326,13 +326,13 @@ export default function Education() {
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
-                    href="https://www.cs.umd.edu/"
+                    href="https://www.wmuc.umd.edu"
                   >
                     WMUC Radio
                   </UnderlineLink>
                   <UnderlineLink
                     className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
-                    href="https://www.cs.umd.edu/"
+                    href="https://www.wmuc.umd.edu"
                   >
                     WMUC Radio
                   </UnderlineLink>
@@ -358,7 +358,7 @@ export default function Education() {
                   <div className="flex w-full justify-end">
                     <ArrowLink
                       className="text-sm"
-                      href="https://medium.com/umd-iefs-online-content/economics-of-vaccine-development-382b330c93b"
+                      href="https://www.wmuc.umd.edu"
                     >
                       Check it Out
                     </ArrowLink>

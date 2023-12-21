@@ -58,7 +58,7 @@ export default function Projects() {
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
                   <UnderlineLink
                     className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
-                    href='https://www.plateplanner.org/'
+                    href='https://github.com/aitikirala/campusconnector'
                   >
                     Campus Connector
                   </UnderlineLink>
@@ -69,32 +69,21 @@ export default function Projects() {
                 </div>
                 <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
                   <h6>
-                    Developed a React-based website with Redux for state
-                    management to generate personalized meal plans based on
-                    user's food preferences and schedule.
+                  Developed an app aimed at bridging the gap between college students seeking services and student entrepreneurs offering
+them. 
                     <div className='ml-6'>
                       <li>
-                        Integrated multiple APIs to access 365,000 recipes and
-                        nutrition databases, implementing caching to optimize
-                        load times and reduce API calls.
+                      This platform enables students to create accounts, discover, book, and favorite services, and leave ratings, all within the convenience of their campus. It facilitates a range of services from nail care and eyebrow threading to tutoring and screen protector installation, fostering a supportive campus community.
                       </li>
                       <li>
-                        Engineered a RESTful backend server & relational
-                        database using Django and MySQL, enabling users to log
-                        in and store favorited meals.
-                      </li>
-                      <li>
-                        Utilized a modern tech stack including JavaScript,
-                        React, Python, SQL, JavaScript, HTML, CSS, MySQL,
-                        Django, Git, and Redux to create a user-friendly
-                        experience.
+                      Utilizes PHP for server communication and Kotlin for coding, with its source code available in the campusconnector repository on my GitHub.
                       </li>
                     </div>
                   </h6>
                   <div className='flex w-full justify-end'>
                     <ArrowLink
                       className='text-sm'
-                      href='https://github.com/ahluwalij/plateplanner-meal-generator'
+                      href='https://github.com/aitikirala/campusconnector'
                     >
                       See the repository
                     </ArrowLink>
