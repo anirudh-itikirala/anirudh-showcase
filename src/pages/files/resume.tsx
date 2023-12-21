@@ -21,7 +21,7 @@ export default function Resume() {
         </div>
       </header>
       <div className='bg-white py-10'>
-        <Worker workerUrl='https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js'>
+        <Worker workerUrl='https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js'>
           <Viewer fileUrl='../assets/Aarti_Itikirala_Resume.pdf' />
         </Worker>
       </div>
