@@ -5,15 +5,7 @@ import * as React from 'react';
 import DarkModeButton from '@/components/buttons/DarkModeButton';
 import PrimaryLink from '@/components/links/PrimaryLink';
 
-// const links = [
-//   { href: '/', label: 'Route 1' },
-//   { href: '/', label: 'Route 2' },
-// ];
-
 export default function Header() {
-  //* In order to properly hydrate the page, we need to wait until
-  //* the UI is mounted on the client
-  // eslint-disable-next-line unused-imports/no-unused-vars
 
   const router = useRouter();
   return (
