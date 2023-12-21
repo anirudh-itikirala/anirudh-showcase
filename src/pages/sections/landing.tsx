@@ -41,37 +41,6 @@ export default function Landing() {
     setPopCard('inline-block');
     setFade(true);
   };
-  //
-  // async function getRepoClones(): Promise<number> {
-  //   const url =
-  //     'https://api.github.com/repos/ahluwalij/jasdeep-showcase/traffic/clones';
-  //   const headers = new Headers({
-  //     Accept: 'application/vnd.github+json',
-  //     Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
-  //     'X-GitHub-Api-Version': '2022-11-28',
-  //   });
-
-  //   try {
-  //     const response = await fetch(url, { method: 'GET', headers });
-
-  //     if (!response.ok) {
-  //       throw new Error(`HTTP error! status: ${response.status}`);
-  //     }
-
-  //     const data = await response.json();
-  //     return data.count;
-  //   } catch (error) {
-  //     // console.error('Error fetching repository clones:', error);
-  //     return 0;
-  //   }
-  // }
-
-  // getRepoClones().then((clones) => {
-  //   const clonesEl = document.getElementById('clones');
-  //   if (clonesEl != null) clonesEl.innerHTML = clones.toString();
-  //   // console.log(`Number of clones: ${clones}`);
-  // });
-
   return (
     <>
       <Seo templateTitle='Home' />
@@ -111,23 +80,7 @@ export default function Landing() {
                       </ArrowLink>
                     </h3>
                   </div>
-                  {/* <h3 className='flex flex-wrap gap-1'>
-                    With
-                    <div
-                      id='clones'
-                      className='font-bold text-slate-700 dark:text-gray-300'
-                    >
-                      ...
-                    </div>
-                    clones and
-                    <div
-                      id='views'
-                      className='font-bold text-slate-700 dark:text-gray-300'
-                    >
-                      ...
-                    </div>
-                    views in the last 14 days
-                  </h3> */}
+                  {}
                 </div>
               </h1>
 
