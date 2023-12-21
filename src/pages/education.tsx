@@ -143,6 +143,62 @@ export default function Education() {
                 </div>
               </div>
 
+
+            {/* Honors Humanities */}
+              <div className='pane'>
+              <div className='w-5/6 pt-12 text-left md:w-2/5'>
+                  <UnderlineLink
+                    className='leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden'
+                    href='https://www.cs.umd.edu/'
+                  >
+                    I4C Student Advisory Board
+                  </UnderlineLink>
+                  <UnderlineLink
+                    className='leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline'
+                    href='https://www.cs.umd.edu/'
+                  >
+                    I4C Student Advisory Board
+                  </UnderlineLink>
+                  <br />
+                  <h1 className='prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl'>
+                    <div>Board Member</div>
+                    <div>August 2020 - May 2021</div>
+                  </h1>
+                </div>
+                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
+                  <h6> Actively contribute to the advisory board of the Iribe Initiative for Inclusion and Diversity
+                    <div className='ml-6'>
+                    <li>
+                    Strategize with members to enhance inclusivity across the institution.
+                      </li>
+                      <li>
+                      Advise on policy development based on diversity research findings.
+                      </li>
+                    </div>
+                  </h6>
+
+                  <h6> Spearhead educational workshops and mentorship programs
+                    <div className='ml-6'>
+                    <li>
+                    Coordinate workshops to raise awareness on diversity issues.
+                      </li>
+                      <li>
+                      Mentor underrepresented students, providing career and academic guidance.
+                      </li>
+                    </div>
+                  </h6>
+
+                  <div className='flex w-full justify-end'>
+                    <ArrowLink
+                      className='text-sm'
+                      href='https://aartificialintelligence.mailchimpsites.com'
+                    >
+                      Learn More
+                    </ArrowLink>
+                  </div>
+                </div>
+              </div>
+              
               {/* I4C Student Advisory Board */}
               <div className='pane'>
                 <div className='w-5/6 pt-12 text-left md:w-2/5'>
