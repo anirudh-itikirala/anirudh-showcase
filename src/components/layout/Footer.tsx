@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         {}
         <div>
-          <UnderlineLink href='/files/resume'>Resume</UnderlineLink>
+          <UnderlineLink href='https://drive.google.com/file/d/1QAyM6ZUWCER_ae4DCJQ42_EpVAGwlz2i/view?usp=sharing'>Resume</UnderlineLink>
         </div>
       </div>
     </footer>
