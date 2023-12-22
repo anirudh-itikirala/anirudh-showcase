@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://jasdeepahluwalia.com
+Host: https://aarti-showcase.vercel.app
 
 # Sitemaps
-Sitemap: https://jasdeepahluwalia.com/sitemap.xml
+Sitemap: https://aarti-showcase.vercel.app/sitemap.xml
