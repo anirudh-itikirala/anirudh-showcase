@@ -363,8 +363,6 @@ export default function Education() {
                       Check it Out
                     </ArrowLink>
                   </div>
-
-
                 </div>
               </div>
             </div>

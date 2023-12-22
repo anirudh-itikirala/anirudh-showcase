@@ -31,7 +31,6 @@ export default function AIML() {
     handleMenuClick();
   }, [vantaEffect]);
 
-  // eslint-disable-next-line unused-imports/no-unused-vars
   const [popCard, setPopCard] = React.useState('hidden');
   const [fade, setFade] = React.useState(false);
 
