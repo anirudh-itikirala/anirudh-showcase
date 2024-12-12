@@ -53,75 +53,6 @@ export default function Work() {
         >
           <div className="layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12 ">
             <div className="mt-16 flex w-full flex-col">
-              {/* AFS PANE */}
-              <div className="pane">
-                <div className="w-5/6 pt-12 text-left md:w-2/5">
-                  <UnderlineLink
-                    className="leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl"
-                    href="https://github.com/aitikirala/PTG-Custom-Connector"
-                  >
-                    Accenture Federal
-                  </UnderlineLink>
-                  <br />
-                  <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl">
-                    <div>Software Engineer (L11)</div>
-                    <div>June 2017 - Present</div>
-                  </h1>
-                </div>
-
-                <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
-                  <h6>
-                    Developed a Custom Github Connector
-                    <div className="ml-6">
-                      <li>
-                        Leveraged AWS Lambda and App Flow to design and
-                        implement a custom Github connector, enabling seamless
-                        integration and automation of code repository workflows.
-                      </li>
-
-                      <li>
-                        Collaborated with cross-functional teams to ensure
-                        security, scalability, and efficiency.
-                      </li>
-                    </div>
-                  </h6>
-
-                  <h6>
-                    Engineered a Workday Connector
-                    <div className="ml-6">
-                      <li>
-                        Created a tailored Workday connector using AWS Lambda
-                        and App Flow, facilitating real-time data
-                        synchronization and automation between HR systems and
-                        internal applications.
-                      </li>
-
-                      <li>
-                        Led the process of testing, deployment, and ongoing
-                        support, contributing to improved operational efficiency
-                      </li>
-                    </div>
-                  </h6>
-
-                  <div className="flex w-full justify-end">
-                    <ArrowLink
-                      className="text-sm"
-                      href="https://github.com/aitikirala/PTG-Custom-Connector"
-                    >
-                      Learn More
-                    </ArrowLink>
-                  </div>
-                  <div className="flex w-full justify-end">
-                    <ArrowLink
-                      className="text-sm"
-                      href="https://www.linkedin.com/in/aarti-itikirala/details/recommendations/?detailScreenTabIndex=0"
-                    >
-                      Recommendation from Manager: Krishna C
-                    </ArrowLink>
-                  </div>
-                </div>
-              </div>
-
 
               {/* PEOPLE TECH PANE */}
               <div className="pane">
@@ -192,31 +123,19 @@ export default function Work() {
                 </div>
               </div>
 
-              <Layout>
-      <Seo templateTitle="Work Experience" />
-      <main>
-        <section
-          className={clsx(
-            "bg-white transition-all dark:bg-dark",
-            fade ? "opacity-100" : "opacity-0"
-          )}
-          ref={vantaRef}
-        >
-          <div className="layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12 ">
-            <div className="mt-16 flex w-full flex-col">
-              {/* AFS PANE */}
+              {/* PEOPLE TECH PANE */}
               <div className="pane">
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl"
                     href="https://github.com/aitikirala/PTG-Custom-Connector"
                   >
-                    Accenture Federal
+                    People Tech Group
                   </UnderlineLink>
                   <br />
                   <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl">
-                    <div>Software Engineer (L11)</div>
-                    <div>June 2017 - Present</div>
+                    <div>SWE Intern</div>
+                    <div>July 2022 - Present</div>
                   </h1>
                 </div>
 
@@ -272,20 +191,19 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-
-
-              {/* NEXTGEN PANE */}
+              
+              {/* PEOPLE TECH PANE */}
               <div className="pane">
                 <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
                     className="leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl"
                     href="https://github.com/aitikirala/PTG-Custom-Connector"
                   >
-                    NextGen Tutoring
+                    People Tech Group
                   </UnderlineLink>
                   <br />
                   <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl">
-                    <div>Founder</div>
+                    <div>SWE Intern</div>
                     <div>July 2022 - Present</div>
                   </h1>
                 </div>
@@ -447,12 +365,12 @@ export default function Work() {
                     </ArrowLink>
                   </div>
                 </div>
-                </div>
-                </div>
-                <Footer />
               </div>
-            </section>
-          </main>
-        </Layout>
-      );
-    } // <-- Added closing curly brace here
+            </div>
+            <Footer />
+          </div>
+        </section>
+      </main>
+    </Layout>
+  );
+}
