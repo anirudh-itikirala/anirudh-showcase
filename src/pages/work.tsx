@@ -447,12 +447,12 @@ export default function Work() {
                     </ArrowLink>
                   </div>
                 </div>
+                </div>
+                </div>
+                <Footer />
               </div>
-            </div>
-            <Footer />
-          </div>
-        </section>
-      </main>
-    </Layout>
-  );
-}
+            </section>
+          </main>
+        </Layout>
+      );
+    } // <-- Added closing curly brace here
