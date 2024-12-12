@@ -97,6 +97,9 @@ export default function Education() {
                       <li>App Development (Kotlin, Swift)</li>
                       <li>Compilers (C, Racket) </li>
                       <li>Algorithms</li>
+                      <li>Database Design (SQL, Python) </li>
+                      <li>Human-Computer Interaction</li>
+                      <li>Network Security (C)</li>
                       <li>
                         {" "}
                         Applied Probability and Statistics (R, SAS, ANOVA,
@@ -125,7 +128,7 @@ export default function Education() {
                   <br />
                   <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
                     <div>Capstone Holder</div>
-                    <div>August 2020 - Present</div>
+                    <div>August 2020 - May 2024</div>
                   </h1>
                 </div>
                 <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
@@ -155,6 +158,39 @@ export default function Education() {
                       Learn More
                     </ArrowLink>
                   </div>
+                </div>
+              </div>
+
+              {/* AWC */}
+              <div className="pane">
+              <div className="w-5/6 pt-12 text-left md:w-2/5">
+  <span className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden">
+    Association for Women in Computing (AWC)
+  </span>
+  
+  <span className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline">
+  Association for Women in Computing (AWC)
+  </span>
+  
+  <br />
+  
+  <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
+    <div>Board Member</div>
+    <div>August 2022 - May 2024</div>
+  </h1>
+</div>
+                <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
+                  <h6>
+                    <div className="ml-6">
+                      <li>
+                        Helped with Food and Setup related activities for AWC Casino Night Event
+                      </li>
+                      <li>
+                        Contributed to the AWC Families Program which allows upperclassmen to take underclassmen under their wing in a women in CS mentorship style program
+                      </li>
+                    </div>
+                  </h6>
+
                 </div>
               </div>
 
