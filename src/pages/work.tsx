@@ -267,15 +267,6 @@ export default function Work() {
                   <div className="flex w-full justify-end">
                     <ArrowLink
                       className="text-sm"
-                      href="https://www.linkedin.com/in/aarti-itikirala/details/recommendations/?detailScreenTabIndex=0"
-                    >
-                      Student Recommendation
-                    </ArrowLink>
-                  </div>
-
-                  <div className="flex w-full justify-end">
-                    <ArrowLink
-                      className="text-sm"
                       href="https://www.linkedin.com/in/aarti-itikirala/overlay/1635477243350/single-media-viewer/?profileId=ACoAADKaE60BFHBu2hKUmYKMm9keqRml1B5-UsE"
                     >
                       Recognition
