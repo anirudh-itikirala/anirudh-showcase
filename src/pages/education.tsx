@@ -164,21 +164,24 @@ export default function Education() {
               {/* AWC */}
               <div className="pane">
               <div className="w-5/6 pt-12 text-left md:w-2/5">
-  <span className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden">
-    Association for Women in Computing (AWC)
-  </span>
-  
-  <span className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline">
-  Association for Women in Computing (AWC)
-  </span>
-  
-  <br />
-  
-  <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
-    <div>Board Member</div>
-    <div>August 2022 - May 2024</div>
-  </h1>
-</div>
+                  <UnderlineLink
+                    className="leading-1 prose w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:hidden"
+                    href="https://umd.campuslabs.com/engage/organization/awc"
+                  >
+                    Association for Women in Computing (AWC)
+                  </UnderlineLink>
+                  <UnderlineLink
+                    className="leading-1 prose hidden w-fit text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl xl:inline"
+                    href="https://umd.campuslabs.com/engage/organization/awc"
+                  >
+                    Association for Women in Computing (AWC)
+                  </UnderlineLink>
+                  <br />
+                  <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
+                  <div>Board Member</div>
+                    <div>August 2022 - Present</div>
+                  </h1>
+                </div>
                 <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
                   <h6>
                     <div className="ml-6">
@@ -193,6 +196,8 @@ export default function Education() {
 
                 </div>
               </div>
+
+              
 
               {/* Frisbee */}
               <div className="pane">
