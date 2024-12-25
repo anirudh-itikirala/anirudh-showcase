@@ -71,15 +71,23 @@ export default function Work() {
                 </div>
 
                 <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
+
                   <h6>
-                  Led multiple client-facing meetings to explain software solutions in technical depth
+                    <li>
+                    Led multiple client-facing meetings to explain software solutions in technical depth
+                    </li>
+                  </h6>
+                  <h6>
+                    <li>
+                    Obtained the AWS Solutions Architect - Associate certification
+                    </li>
                   </h6>
 
                   <h6>
-                  Obtained the AWS Solutions Architect - Associate certification
+                    <li>
+                    Implemented critical software enhancements and structural changes using Microsoft Power Automate, resulting in a 30% improvement in system performance.
+                    </li>
                   </h6>
-
-                  <h6>Implemented critical software enhancements and structural changes using Microsoft Power Automate, resulting in a 30% improvement in system performance.</h6>
 
                   <div className="flex w-full justify-end">
                     <ArrowLink
