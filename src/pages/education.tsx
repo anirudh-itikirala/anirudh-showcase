@@ -31,7 +31,7 @@ export default function Education() {
     handleMenuClick();
   }, [vantaEffect]);
 
-  // WORK ON REMAINING CLUBS AND THINGS
+  
   const [popCard, setPopCard] = React.useState("hidden");
   const [fade, setFade] = React.useState(false);
 
@@ -95,7 +95,7 @@ export default function Education() {
       <br />
       <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-3xl">
         <div>Football Player</div>
-        <div>May 2024 - Nov 2024 · 7 mos</div>
+        <div>May 2024 - Nov 2024</div>
       </h1>
     </div>
     <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
