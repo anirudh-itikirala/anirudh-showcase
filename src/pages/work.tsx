@@ -65,7 +65,7 @@ export default function Work() {
       </UnderlineLink>
       <br />
       <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl">
-        <div>Manager - Newark, DE</div>
+        <div>Manager</div>
         <div>Mar 2024 – Present</div>
       </h1>
     </div>
@@ -114,7 +114,7 @@ export default function Work() {
       </UnderlineLink>
       <br />
       <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl">
-        <div>Server - Elkton, MD</div>
+        <div>Server and Floor Lead</div>
         <div>Nov 2023 – May 2024</div>
       </h1>
     </div>
