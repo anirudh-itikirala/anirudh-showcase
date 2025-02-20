@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           © {new Date().getFullYear()} By{' '}
           <UnderlineLink href='https://www.linkedin.com/in/anirudh-itikirala-b007bb339/'>
-            Aarti Itikirala.
+            Anirudh Itikirala.
           </UnderlineLink>
         </div>
         <div>
