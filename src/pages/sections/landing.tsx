@@ -58,7 +58,7 @@ export default function Landing() {
               data-replace='{ "translate-y-12": "translate-y-0" }'
             >
               <h1 className='flex min-h-[192px] flex-col items-start font-bold tracking-normal text-primary dark:text-[#FAD5A5] max-[640px]:text-6xl max-[400px]:text-5xl sm:text-7xl md:text-8xl'>
-                <div>Aarti</div>
+                <div>Anirudh</div>
                 <div>Itikirala</div>
                 <div className='text-md flex flex-col items-start gap-1 text-left md:text-lg'>
                   <div className='flex flex-col gap-1 lg:flex-row'>
@@ -67,14 +67,14 @@ export default function Landing() {
                       Check out the{' '}
                       <UnderlineLink
                         className='font-bold text-slate-700 dark:text-gray-300'
-                        href='https://github.com/aitikirala/aarti-showcase'
+                        href='https://github.com/anirudh-itikirala/anirudh-showcase'
                       >
                         source code
                       </UnderlineLink>{' '}
                       on my{' '}
                       <ArrowLink
                         className='font-bold text-slate-700 dark:text-gray-300'
-                        href='https://github.com/aitikirala'
+                        href='https://github.com/anirudh-itikirala'
                       >
                         GitHub
                       </ArrowLink>
