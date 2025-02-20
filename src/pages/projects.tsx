@@ -1,17 +1,18 @@
-import clsx from 'clsx';
-import * as React from 'react';
-import * as THREE from 'three';
-import NET from 'vanta/dist/vanta.net.min';
+import clsx from "clsx";
+import * as React from "react";
+import * as THREE from "three";
+import NET from "vanta/dist/vanta.net.min";
 
-import Footer from '@/components/layout/Footer';
-import Layout from '@/components/layout/Layout';
-import ArrowLink from '@/components/links/ArrowLink';
-import UnderlineLink from '@/components/links/UnderlineLink';
-import Seo from '@/components/Seo';
+import Footer from "@/components/layout/Footer";
+import Layout from "@/components/layout/Layout";
+import ArrowLink from "@/components/links/ArrowLink";
+import UnderlineLink from "@/components/links/UnderlineLink";
+import Seo from "@/components/Seo";
 
 export default function Projects() {
   const [vantaEffect, setVantaEffect] = React.useState(0);
   const vantaRef = React.useRef(null);
+
   React.useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
@@ -32,65 +33,99 @@ export default function Projects() {
   }, [vantaEffect]);
 
   // eslint-disable-next-line unused-imports/no-unused-vars
-  const [popCard, setPopCard] = React.useState('hidden');
+  const [popCard, setPopCard] = React.useState("hidden");
   const [fade, setFade] = React.useState(false);
 
   const handleMenuClick = () => {
-    setPopCard('inline-block');
+    setPopCard("inline-block");
     setFade(true);
   };
 
   return (
     <Layout>
-      <Seo templateTitle='Work Experience' />
+      <Seo templateTitle="Projects" />
       <main>
         <section
           className={clsx(
-            'bg-white transition-all dark:bg-dark',
-            fade ? 'opacity-100' : 'opacity-0'
+            "bg-white transition-all dark:bg-dark",
+            fade ? "opacity-100" : "opacity-0"
           )}
           ref={vantaRef}
         >
-          <div className='layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12 '>
-            <div className='mt-16 flex w-full flex-col'>
-              {/* Campus Connector */}
-              <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
+          <div className="layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12">
+            <div className="mt-16 flex w-full flex-col">
+              {/* Budget Planner Program */}
+              <div className="pane">
+                <div className="w-5/6 pt-12 text-left md:w-2/5">
                   <UnderlineLink
-                    className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
-                    href='https://github.com/aitikirala/campusconnector'
+                    className="leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl"
+                    href="https://github.com/anirudh-itikirala/anirudh_budget_planner"
                   >
-                    Campus Connector
+                    Budget Planner Program
                   </UnderlineLink>
                   <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    September 2022 - December 2022
+                  <h1 className="prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl">
+                    Sep 2023 – Jan 2024
                   </h1>
                 </div>
-                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
+                <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
                   <h6>
-                  Developed an app aimed at bridging the gap between college students seeking services and student entrepreneurs offering
-them. 
-                    <div className='ml-6'>
+                    Designed and implemented a Python-based budget planner that dynamically allocates a weekly budget based on a user-defined monthly budget and estimated outings.
+                    <div className="ml-6">
                       <li>
-                      This platform enables students to create accounts, discover, book, and favorite services, and leave ratings, all within the convenience of their campus. It facilitates a range of services from nail care and eyebrow threading to tutoring and screen protector installation, fostering a supportive campus community.
+                        Integrated an automatic rollover feature for unused funds, enabling flexible spending management. Developed a user-friendly interface for logging expenses, adjusting allocations, and tracking financial insights in real time.
                       </li>
-                      <li>
-                      Utilizes PHP for server communication and Kotlin for coding, with its source code available in the campusconnector repository on my GitHub.
-                      </li>
+                      
                     </div>
                   </h6>
-                  <div className='flex w-full justify-end'>
+                  <div className="flex w-full justify-end">
                     <ArrowLink
-                      className='text-sm'
-                      href='https://github.com/aitikirala/campusconnector'
+                      className="text-sm"
+                      href="https://github.com/anirudh-itikirala/anirudh_budget_planner"
                     >
                       See the repository
                     </ArrowLink>
                   </div>
                 </div>
               </div>
-              
+
+              {/* Hotel Management Tool */}
+              <div className="pane">
+                <div className="w-5/6 pt-12 text-left md:w-2/5">
+                  <UnderlineLink
+                    className="leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl"
+                    href="https://github.com/anirudh-itikirala/hotel-management-tool"
+                  >
+                    Hotel Management Tool
+                  </UnderlineLink>
+                  <br />
+                  <h1 className="prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl">
+                    Jan 2025 – Present
+                  </h1>
+                </div>
+                <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
+                  <h6>
+                    Developed a JavaFX-based event management system for Rosewood Farms to optimize seating arrangements, inventory tracking, and customer feedback analytics.
+                    <div className="ml-6">
+                      <li>
+                        Designed a user-friendly interface to enhance event logistics, reducing setup time and improving operational efficiency.
+                      </li>
+                      <li>
+                        Integrated dynamic UI components and data tracking mechanisms to streamline farm event coordination.
+                      </li>
+                      
+                    </div>
+                  </h6>
+                  <div className="flex w-full justify-end">
+                    <ArrowLink
+                      className="text-sm"
+                      href="https://github.com/anirudh-itikirala/hotel-management-tool"
+                    >
+                      See the repository
+                    </ArrowLink>
+                  </div>
+                </div>
+              </div>
             </div>
             <Footer />
           </div>
