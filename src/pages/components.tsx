@@ -133,7 +133,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnstyledLink href='/'>Internal Links</UnstyledLink>
-                  <UnstyledLink href='https://aarti-showcase.vercel.app'>
+                  <UnstyledLink href='https://anirudh-showcase.vercel.app'>
                     Outside Links
                   </UnstyledLink>
                 </div>
@@ -146,7 +146,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <PrimaryLink href='/'>Internal Links</PrimaryLink>
-                  <PrimaryLink href='https://aarti-showcase.vercel.app'>
+                  <PrimaryLink href='https://anirudh-showcase.vercel.app'>
                     Outside Links
                   </PrimaryLink>
                 </div>
@@ -159,7 +159,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnderlineLink href='/'>Internal Links</UnderlineLink>
-                  <UnderlineLink href='https://aarti-showcase.vercel.app'>
+                  <UnderlineLink href='https://anirudh-showcase.vercel.app'>
                     Outside Links
                   </UnderlineLink>
                 </div>
@@ -200,33 +200,33 @@ export default function ComponentsPage() {
                 <div className='flex flex-wrap gap-2'>
                   <ButtonLink
                     variant='primary'
-                    href='https://aarti-showcase.vercel.app'
+                    href='https://anirudh-showcase.vercel.app'
                   >
                     Primary Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='outline'
                     isDarkBg={mode === 'dark'}
-                    href='https://aarti-showcase.vercel.app'
+                    href='https://anirudh-showcase.vercel.app'
                   >
                     Outline Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='ghost'
                     isDarkBg={mode === 'dark'}
-                    href='https://aarti-showcase.vercel.app'
+                    href='https://anirudh-showcase.vercel.app'
                   >
                     Ghost Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='dark'
-                    href='https://aarti-showcase.vercel.app'
+                    href='https://anirudh-showcase.vercel.app'
                   >
                     Dark Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='light'
-                    href='https://aarti-showcase.vercel.app'
+                    href='https://anirudh-showcase.vercel.app'
                   >
                     Light Variant
                   </ButtonLink>
