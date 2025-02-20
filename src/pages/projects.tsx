@@ -105,9 +105,10 @@ export default function Projects() {
                   </h1>
                 </div>
                 <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
-                  <h6>
+                  <li>
                     Developed a JavaFX-based event management system for Rosewood Farms to optimize seating arrangements, inventory tracking, and customer feedback analytics.
-                    <div className="ml-6">
+                    </li>
+                   
                       <li>
                         Designed a user-friendly interface to enhance event logistics, reducing setup time and improving operational efficiency.
                       </li>
@@ -115,8 +116,8 @@ export default function Projects() {
                         Integrated dynamic UI components and data tracking mechanisms to streamline farm event coordination.
                       </li>
                       
-                    </div>
-                  </h6>
+                  
+                  
                   <div className="flex w-full justify-end">
                     <ArrowLink
                       className="text-sm"
