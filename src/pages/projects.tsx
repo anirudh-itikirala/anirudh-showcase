@@ -69,15 +69,16 @@ export default function Projects() {
                   </h1>
                 </div>
                 <div className="prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12">
-                  <h6>
+                  <li>
                     Designed and implemented a Python-based budget planner that dynamically allocates a weekly budget based on a user-defined monthly budget and estimated outings.
-                    <div className="ml-6">
+                    </li>
+                   
                       <li>
                         Integrated an automatic rollover feature for unused funds, enabling flexible spending management. Developed a user-friendly interface for logging expenses, adjusting allocations, and tracking financial insights in real time.
                       </li>
                       
-                    </div>
-                  </h6>
+              
+                  
                   <div className="flex w-full justify-end">
                     <ArrowLink
                       className="text-sm"
