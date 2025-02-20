@@ -97,14 +97,7 @@ export default function Work() {
                       operational workflows
                     </li>
                   </h6>
-                  <div className="flex w-full justify-end">
-                    <ArrowLink
-                      className="text-sm"
-                      href="https://www.credly.com/badges/38efde8c-4e2a-436d-8003-de2bb80d7c96"
-                    >
-                      Solutions Architect Certification
-                    </ArrowLink>
-                  </div>
+                  
                 </div>
               </div>
 
@@ -143,14 +136,7 @@ export default function Work() {
                       responsiveness and guest satisfaction
                     </li>
                   </h6>
-                  <div className="flex w-full justify-end">
-                    <ArrowLink
-                      className="text-sm"
-                      href="https://www.credly.com/badges/38efde8c-4e2a-436d-8003-de2bb80d7c96"
-                    >
-                      Solutions Architect Certification
-                    </ArrowLink>
-                  </div>
+                
                 </div>
               </div>
             </div>
