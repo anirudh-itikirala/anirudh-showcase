@@ -8,17 +8,17 @@ export default function Footer() {
       <div className='flex w-full justify-center gap-4 leading-4'>
         <div>
           © {new Date().getFullYear()} By{' '}
-          <UnderlineLink href='https://www.linkedin.com/in/aarti-itikirala/'>
+          <UnderlineLink href='https://www.linkedin.com/in/anirudh-itikirala-b007bb339/'>
             Aarti Itikirala.
           </UnderlineLink>
         </div>
         <div>
-          <UnderlineLink href='https://www.linkedin.com/in/aarti-itikirala/'>
+          <UnderlineLink href='https://www.linkedin.com/in/anirudh-itikirala-b007bb339/'>
             LinkedIn
           </UnderlineLink>
         </div>
         <div>
-          <UnderlineLink href='https://github.com/aitikirala'>
+          <UnderlineLink href='https://github.com/anirudh-itikirala'>
             GitHub
           </UnderlineLink>
         </div>
