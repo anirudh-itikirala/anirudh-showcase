@@ -52,56 +52,14 @@ export default function AIML() {
         >
           <div className='layout relative flex min-h-screen flex-col items-start justify-start pt-6 text-center sm:pt-8 md:pt-10 lg:pt-12 '>
             <div className='mt-16 flex w-full flex-col'>
-              {/* CO2 EMISSIONS PANE */}
-              <div className='pane'>
-                <div className='w-5/6 pt-12 text-left md:w-2/5'>
-                  <UnderlineLink
-                    className='leading-1 prose text-left text-[2.5rem] font-semibold leading-10 dark:prose-invert sm:text-5xl'
-                    href='https://github.com/aitikirala/aitikirala.github.io'
-                  >
-                    Application of ML
-                    <br />
-                    on CO2 Emissions
-                  </UnderlineLink>
-                  <br />
-                  <h1 className='prose prose-xl mt-2 text-xl dark:prose-invert md:text-3xl'>
-                    May 2023
-                  </h1>
-                </div>
-                <div className='prose prose-lg w-5/6 pt-2 text-left tracking-tight dark:prose-invert md:prose-xl lg:prose-2xl md:w-2/5 md:pt-12'>
-                  <h6>
-                    Utilized Pandas, NumPy, Seaborn, and SciKit to construct a
-                    machine learning predictive model for vehicle CO2 emissions.
-                    <div className='ml-6'>
-                      <li>
-                        Analyzed the dataset to identify that engine size and
-                        fuel consumption exert the most significant influence on
-                        CO2 emissions, with a correlation coefficient of 0.59
-                        and 0.94 respectively.
-                      </li>
-                      <li>
-                        Constructed a predictive machine learning model using
-                        linear regression algorithms, achieving an R-squared
-                        value of 0.91 in predicting vehicle CO2 emissions.
-                      </li>
-                      <li>
-                        Visualized data trends through Seaborn heatmap
-                        visualizations to better understand relationships
-                        between CO2 emissions and different features such as
-                        vehicle class, transmission, and fuel type.
-                      </li>
-                    </div>
-                  </h6>
-                  <div className='flex w-full justify-end'>
-                    <ArrowLink
-                      className='text-sm'
-                      href='https://aitikirala.github.io'
-                    >
-                      See the notebook
-                    </ArrowLink>
-                  </div>
-                </div>
-              </div>
+              
+              
+            <div className="mt-16 flex w-full flex-col items-center justify-center">
+  <h1 className="text-3xl font-bold">
+    Sorry guys, page under reconstruction :(
+  </h1>
+</div>
+
             </div>
             <Footer />
           </div>
