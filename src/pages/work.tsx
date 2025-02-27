@@ -112,7 +112,7 @@ export default function Work() {
                   </UnderlineLink>
                   <br />
                   <h1 className="prose prose-xl mt-4 flex flex-col text-xl dark:prose-invert md:text-2xl">
-                    <div>Server and Floor Lead</div>
+                    <div>Technical Event Coordinater</div>
                     <div>Nov 2023 – May 2024</div>
                   </h1>
                 </div>
